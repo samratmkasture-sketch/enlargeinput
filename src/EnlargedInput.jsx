@@ -82,7 +82,6 @@ export default function EnlargedInput() {
               >
                 {char}
               </span>
-
               {cursorPos === i + 1 && <Caret />}
             </React.Fragment>
           );
